@@ -1,0 +1,258 @@
+img { /* Imagem fluída */
+	display: block;
+	max-width: 100;
+}
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor text-decoration
+ */ 
+
+a {
+	text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */ 
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+
+/* GERAL */
+*{ font-family: David Libre Normal; }
+
+h1, h2, a{
+	font-family: David Libre Bold;
+}
+
+h2{font-size: 24px;}
+
+p{ font-size: 24px; line-height: 1.5em; color: #B3B3B3; }
+
+span{ font-family: David Libre Bold; }
+
+@font-face{
+	font-family: David Libre Normal;
+	src: url(../fonts/DavidLibre-Regular.ttf);
+}
+
+@font-face{
+	font-family: David Libre Bold;
+	src: url(../fonts/DavidLibre-Bold.ttf);
+}
+
+.titulo{
+	display: block;
+	text-align: center;
+	font-size: 36px;
+	color: #3196C3;
+	margin-bottom: 40px;
+}
+
+.titulo span{
+	color: #8D439D;
+	font-family: David Libre Bold;
+}
+
+
+.call{
+	margin: 40px auto 0 auto;
+	text-align: center;
+	display: block;
+}
+
+.call a{
+	font-size: 24px;
+	padding: 15px 40px;
+	border: 4px solid #3196C3;
+	color: #3196C3;
+	border-radius: 10px;
+}
+
+
+/* MENU  DESK */
+header{ background: #f2f2f2; padding: 20px; border-bottom: 10px solid #3196C3;}
+
+.logo{ float: left; max-width: 200px; }
+
+.menu-desk ul {float: right; padding: 20px 0;}
+
+.menu-desk ul li{ display: inline-block; margin-left: 40px; }
+
+.menu-desk ul li a{ font-size: 18px; color: #999999; }
+
+.menu-desk .login{ color: #8D439D; }
+
+
+/**/
+
+
+/* INTRO */
+
+.intro{ height: 736px; 
+	background: url(../img/bg-intro.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover; 
+}
+
+.intro h2{ 
+	max-width: 600px; 
+	display: block; 
+	margin: 200px auto 0 auto; 
+	font-size: 48px;
+	text-align: center;
+	color: #3196C3;
+	padding: 30px 20px; 
+	background: rgba(255,255,255,.9);
+}
+
+.intro span{font-size: 24px;}
+
+.intro h1{
+	max-width: 600px; 
+	margin: 40px auto;
+	color: #8D439D;
+	padding: 30px 0px; 
+	background: rgba(255,255,255,.9);
+	font-size: 36px;
+	text-align: center;
+
+}
+
+/**/
+
+
+
+/* CONCEITO */
+
+.conceito{ padding: 100px 0; border-top: 10px solid #8D439D; }
+
+
+.conceito h2{
+	color: #3196C3;
+}
+
+.conceito img{
+	margin-top: 80px;
+	max-width: 140px;
+}
+
+.conceito .c-texto{ padding: 0px 20px; }
+
+.conceito .c-texto p{ line-height: 2em; color: #B3B3B3; }
+
+.conceito .c-texto span{
+	font-family: David Libre Bold;
+	font-size: 24px;
+	color: #808080;
+}
+
+/**/
+
+
+
+
+/* LIVROS */
+
+.livros{ 
+	padding: 100px 0;
+	background: #f2f2f2;
+	}
+
+.livros-item img{
+	height: 300px; 
+	background: black;
+	clear: both;
+	margin: 20px 0;
+	object-fit: cover;
+	object-position: center;
+}
+
+.livros-item .livro-texto{   padding: 15px;}
+
+.livro-texto h2{ line-height: 2em; color: #3196C3; }
+
+
+/**/
+
+
+/* SER-LIVRO */
+
+.ser-livro{
+	padding: 100px 0 200px 0;
+}
+
+.ser-livro img{
+	margin-bottom: 40px;
+	clear: both;
+	height: 500px;
+}
+
+.ser-livro img{
+	height: 500px;
+	object-position: center;
+	object-fit: cover;
+}
+
+
+.ser-livro .call{
+	margin-top: 80px;
+}
+
+
+
+
+/**/
+
+
+
+/* RODAPÉ */
+
+footer{
+	background: #f2f2f2;
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+}
+
+
+
+footer .logo-f img{
+	width: 300px;
+	margin: 40px auto;
+}
+
+footer .logo-f{ 	border-bottom: 0.5px solid #999999; }
+
+.div-footer{ text-align: center; }
+
+.div-footer h2{ margin: 40px 0 10px 0; font-size: 24px; color: #3196C3;  }
+.div-footer p{font-size: 18px; line-height: 2em; }
+
+.copyright{margin-top: 60px;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	background: #3196C3;
+	padding: 20px;
+	text-align: center;
+	color: rgba(255,255,255,.8);
+}
